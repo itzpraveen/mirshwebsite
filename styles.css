@@ -174,24 +174,19 @@ body[data-theme="dark"] .site-header.is-scrolled {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 11px;
   min-height: 44px;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  font-size: 1.02rem;
 }
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 34px;
-  height: 34px;
-  border-radius: 9px;
-  color: var(--accent-bright);
-  border: 1px solid currentColor;
-  background: linear-gradient(140deg, rgba(216, 149, 79, 0.18), rgba(216, 149, 79, 0.04));
+
+.brand-logo {
+  display: block;
+  width: auto;
+  height: 38px;
+  max-width: min(184px, 48vw);
 }
-.brand-mark svg { width: 20px; height: 20px; }
-.brand-dim { opacity: 0.5; }
+
+.site-footer .brand-logo {
+  height: 42px;
+}
 
 .site-nav {
   display: flex;
