@@ -68,5 +68,5 @@ contactForm.addEventListener("submit", (event) => {
   );
 
   status.textContent = "Opening your email app...";
-  window.location.href = `mailto:hello@mirsh.tech?subject=${subject}&body=${bodyText}`;
+  window.location.href = `mailto:hello@mirsh.ae?subject=${subject}&body=${bodyText}`;
 });
