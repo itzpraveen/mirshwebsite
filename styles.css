@@ -544,6 +544,36 @@ section:not(.hero) {
   font-weight: 760;
 }
 
+.company-details {
+  margin-top: 34px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+
+.company-details dl {
+  display: grid;
+  gap: 18px;
+  margin: 0;
+}
+
+.company-details div {
+  display: grid;
+  grid-template-columns: 132px minmax(0, 1fr);
+  gap: 18px;
+}
+
+.company-details dt {
+  color: var(--lime);
+  font-size: 0.74rem;
+  font-weight: 780;
+  text-transform: uppercase;
+}
+
+.company-details dd {
+  margin: 0;
+  color: rgba(237, 245, 248, 0.86);
+}
+
 .contact-form {
   display: grid;
   gap: 16px;
@@ -758,6 +788,11 @@ section:not(.hero) {
 
   .proof-line strong {
     font-size: 1rem;
+  }
+
+  .company-details div {
+    grid-template-columns: 1fr;
+    gap: 6px;
   }
 
   .hero-actions {
