@@ -3,32 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Mirsh Systems designs, builds, and operates practical AI services, intelligent automation, data platforms, and secure product systems for ambitious teams.">
-    <meta name="theme-color" content="#070809">
-    <title>Mirsh Systems — Applied AI, built to be trusted</title>
+    <meta name="description" content="Mirsh Systems designs practical AI services, workflow automation, data platforms, and secure product systems for ambitious teams.">
+    <meta name="theme-color" content="#f5f1e8">
+    <title>Mirsh Systems — Practical AI Services</title>
     <link rel="icon" href="assets/mirsh-logo.svg" type="image/svg+xml">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Mirsh Systems — Applied AI, built to be trusted">
-    <meta property="og:description" content="We design, build, and operate AI-powered systems that make teams faster, sharper, and easier to scale.">
+    <meta property="og:title" content="Mirsh Systems — Practical AI Services">
+    <meta property="og:description" content="Applied intelligence, automation, and product systems for teams that need useful outcomes, not experiments.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@400;500;600&display=swap">
 
+    <link rel="preload" href="assets/secure-hardware.webp" as="image">
     <link rel="stylesheet" href="styles.css">
-
-    <script type="importmap">
-      {
-        "imports": {
-          "three": "https://unpkg.com/three@0.169.0/build/three.module.js"
-        }
-      }
-    </script>
   </head>
-  <body data-theme="dark">
-    <div class="grain" aria-hidden="true"></div>
-
+  <body>
     <header class="site-header" data-header>
       <a class="brand" href="#top" aria-label="Mirsh Systems home">
         <img class="brand-logo" src="assets/mirsh-wordmark.svg" alt="Mirsh">
@@ -39,193 +30,158 @@
       </button>
       <nav class="site-nav" aria-label="Main navigation" data-nav>
         <a href="#approach">Approach</a>
-        <a href="#work">Work</a>
         <a href="#services">Services</a>
         <a href="#method">Method</a>
-        <a class="nav-cta" href="#contact">Start a build</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main id="top">
       <section class="hero" aria-label="Mirsh Systems introduction">
-        <canvas class="hero-canvas" data-webgl aria-hidden="true"></canvas>
-        <div class="hero-veil" aria-hidden="true"></div>
-        <div class="hero-content">
-          <p class="eyebrow" data-stagger>
-            <span class="eyebrow-dot" aria-hidden="true"></span>
-            Applied AI service company
+        <img class="hero-image" src="assets/secure-hardware.webp" alt="Secure server hardware and fiber optic infrastructure" width="1672" height="941">
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-content" data-reveal>
+          <p class="eyebrow">Applied technology services</p>
+          <h1>Useful systems for serious operations.</h1>
+          <p class="hero-line">
+            Mirsh helps teams turn automation, data, and product ideas into dependable software that people can trust and operate.
           </p>
-          <h1 class="hero-title" data-stagger>
-            <span class="line">AI that works</span>
-            <span class="line">inside the <em>business</em>.</span>
-          </h1>
-          <p class="hero-line" data-stagger>
-            We design, build, and operate AI-powered systems that make teams
-            faster, sharper, and easier to scale — without losing human control.
-          </p>
-          <div class="hero-actions" data-stagger aria-label="Primary actions">
-            <a class="button button-primary" data-magnetic href="#contact">
-              Start a build
-              <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
-            <a class="button button-ghost" data-magnetic href="#services">View services</a>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="#contact">Start a conversation</a>
+            <a class="button button-secondary" href="#services">View services</a>
           </div>
-          <dl class="hero-trust" data-stagger aria-label="How we operate">
-            <div><dt>Use cases</dt><dd>Mapped first</dd></div>
-            <div><dt>Humans</dt><dd>Always in control</dd></div>
-            <div><dt>Releases</dt><dd>Secure by design</dd></div>
-          </dl>
         </div>
-        <a class="scroll-cue" href="#approach" aria-label="Scroll to overview">
-          <span class="scroll-cue-track"><span class="scroll-cue-dot"></span></span>
-          Scroll
-        </a>
       </section>
 
-      <section class="approach" id="approach">
-        <div class="section-head" data-reveal>
-          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>Intelligence layer</p>
-          <h2>We connect models, data, and<br>workflows into systems teams can run.</h2>
-          <p class="lede">From AI ideas to reliable daily operations — built with the
-          guardrails, visibility, and care that earn a team's trust.</p>
+      <section class="intro" id="approach">
+        <div class="section-kicker" data-reveal>
+          <span>01</span>
+          <p>Approach</p>
         </div>
-        <ol class="pillars" aria-label="Core strengths">
-          <li data-reveal>
-            <span class="pillar-no">01</span>
-            <h3>AI product builds</h3>
-            <p>Customer tools, operator workspaces, and internal systems with AI built directly into the flow.</p>
-          </li>
-          <li data-reveal>
-            <span class="pillar-no">02</span>
-            <h3>Automation with control</h3>
-            <p>Human-reviewed workflows, smart routing, and clear audit trails for the work that matters.</p>
-          </li>
-          <li data-reveal>
-            <span class="pillar-no">03</span>
-            <h3>Secure by design</h3>
-            <p>Practical guardrails, access controls, monitoring, and review loops built into every delivery.</p>
-          </li>
-        </ol>
+        <div class="intro-copy" data-reveal>
+          <h2>We build the practical layer between a business problem and working software.</h2>
+          <p>
+            The work is straightforward: understand the process, connect the right data, design the controls, and ship the system in a way your team can maintain.
+          </p>
+        </div>
       </section>
 
-      <section class="feature" id="work">
-        <div class="feature-media" data-reveal>
-          <img src="assets/engineering-lab.webp" alt="Team reviewing AI workflow automation across operation displays" width="1536" height="1024" loading="lazy">
-          <span class="media-tag">In the control room</span>
+      <section class="principles" aria-label="Operating principles">
+        <article data-reveal>
+          <span>01</span>
+          <h3>Start with the workflow</h3>
+          <p>We map where decisions happen, who needs control, and what output must be reliable before a build begins.</p>
+        </article>
+        <article data-reveal>
+          <span>02</span>
+          <h3>Keep the system visible</h3>
+          <p>Every delivery includes audit trails, review paths, monitoring, and clear ownership for day-to-day use.</p>
+        </article>
+        <article data-reveal>
+          <span>03</span>
+          <h3>Ship in useful stages</h3>
+          <p>We avoid showpiece prototypes and move toward small releases that prove value in real operations.</p>
+        </article>
+      </section>
+
+      <section class="work" id="work">
+        <div class="work-media" data-reveal>
+          <img src="assets/engineering-lab.webp" alt="Team reviewing workflow automation and operations displays" width="1536" height="1024" loading="lazy">
         </div>
-        <div class="feature-copy" data-reveal>
-          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>What we build</p>
-          <h2>AI services with a clear<br>control room.</h2>
-          <p class="lede">Mirsh designs and ships the AI layer behind modern businesses:
-          assistants, workflow engines, knowledge systems, data products, and secure
-          cloud operations that teams can actually run.</p>
-          <ul class="check-list">
-            <li>AI assistants for customers and internal teams</li>
-            <li>Automation for sales, support, finance, and operations</li>
+        <div class="work-copy" data-reveal>
+          <div class="section-kicker">
+            <span>02</span>
+            <p>What we build</p>
+          </div>
+          <h2>Intelligent tools that sit inside everyday work.</h2>
+          <p>
+            We design assistants, internal platforms, process automation, knowledge systems, and secure integrations that reduce manual effort without making the operation feel out of control.
+          </p>
+          <ul class="plain-list">
+            <li>Customer and internal team assistants</li>
+            <li>Operations, finance, support, and sales automation</li>
             <li>Knowledge systems connected to company data</li>
-            <li>Secure integrations between AI tools and core platforms</li>
+            <li>Secure product and platform integrations</li>
           </ul>
         </div>
       </section>
 
       <section class="services" id="services">
-        <div class="section-head narrow" data-reveal>
-          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>Services</p>
-          <h2>AI strategy, systems,<br>and delivery.</h2>
+        <div class="section-kicker" data-reveal>
+          <span>03</span>
+          <p>Services</p>
         </div>
-        <div class="services-grid">
-          <article class="service-card" data-reveal data-tilt>
-            <span class="service-no">01</span>
-            <h3>AI product engineering</h3>
-            <p>Web and mobile products with useful AI features, clear user flows, and reliable backend contracts.</p>
+        <div class="service-header" data-reveal>
+          <h2>Services with clear ownership.</h2>
+          <p>Each service can stand alone or become part of a broader product and operations roadmap.</p>
+        </div>
+        <div class="service-list">
+          <article data-reveal>
+            <span>01</span>
+            <h3>Product engineering</h3>
+            <p>Web and mobile products with useful intelligent features, clean UX, and reliable backend contracts.</p>
           </article>
-          <article class="service-card" data-reveal data-tilt>
-            <span class="service-no">02</span>
-            <h3>AI agents</h3>
-            <p>Task-focused assistants for research, support, operations, document work, and team productivity.</p>
+          <article data-reveal>
+            <span>02</span>
+            <h3>Workflow automation</h3>
+            <p>Business process automation for support, research, documents, operations, and team productivity.</p>
           </article>
-          <article class="service-card" data-reveal data-tilt>
-            <span class="service-no">03</span>
+          <article data-reveal>
+            <span>03</span>
             <h3>Data readiness</h3>
-            <p>Clean data pipelines, retrieval systems, reporting layers, and storage patterns for accurate AI output.</p>
+            <p>Data pipelines, retrieval systems, reporting layers, and storage patterns for accurate output.</p>
           </article>
-          <article class="service-card" data-reveal data-tilt>
-            <span class="service-no">04</span>
-            <h3>AI safety &amp; governance</h3>
+          <article data-reveal>
+            <span>04</span>
+            <h3>Governance and safety</h3>
             <p>Access models, audit trails, evaluation routines, review workflows, and protection for sensitive data.</p>
           </article>
-          <article class="service-card" data-reveal data-tilt>
-            <span class="service-no">05</span>
-            <h3>Workflow automation</h3>
-            <p>Workflow engines, integrations, operator tools, and intelligent back-office systems that reduce manual drag.</p>
-          </article>
-          <article class="service-card" data-reveal data-tilt>
-            <span class="service-no">06</span>
-            <h3>Model integration</h3>
-            <p>Stable interfaces, prompt systems, evaluation harnesses, monitoring, and lifecycle management.</p>
+          <article data-reveal>
+            <span>05</span>
+            <h3>System integration</h3>
+            <p>Stable interfaces, authentication, monitoring, documentation, and lifecycle management.</p>
           </article>
         </div>
       </section>
 
       <section class="method" id="method">
         <div class="method-copy" data-reveal>
-          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>Method</p>
-          <h2>Useful AI, shipped<br>responsibly.</h2>
-          <p class="lede">We keep the path from idea to production visible. Every
-          engagement gets a use-case map, a release plan, and a measurable
-          operating target.</p>
-          <ol class="steps" aria-label="Delivery method">
-            <li>
-              <span class="step-no">01</span>
-              <div>
-                <h3>Map the use cases</h3>
-                <p>Clarify users, source data, decisions, risk areas, integrations, and success measures.</p>
-              </div>
-            </li>
-            <li>
-              <span class="step-no">02</span>
-              <div>
-                <h3>Build the AI spine</h3>
-                <p>Ship the model workflow, data connections, review steps, deployment path, and security posture.</p>
-              </div>
-            </li>
-            <li>
-              <span class="step-no">03</span>
-              <div>
-                <h3>Improve in production</h3>
-                <p>Layer in automation, evaluation, monitoring, documentation, and handoff routines.</p>
-              </div>
-            </li>
-          </ol>
+          <div class="section-kicker">
+            <span>04</span>
+            <p>Method</p>
+          </div>
+          <h2>A measured path from idea to production.</h2>
         </div>
-        <div class="method-media" data-reveal>
-          <img src="assets/secure-hardware.webp" alt="Secure server hardware with fiber optic connections" width="1672" height="941" loading="lazy">
-          <span class="media-tag">Secure by design</span>
-        </div>
-      </section>
-
-      <section class="assurance" aria-label="AI delivery signals">
-        <div class="assurance-inner" data-reveal>
-          <p class="assurance-label">AI delivery signals</p>
-          <ul class="assurance-list">
-            <li><span aria-hidden="true">&#10003;</span> Clear use cases</li>
-            <li><span aria-hidden="true">&#10003;</span> Useful output</li>
-            <li><span aria-hidden="true">&#10003;</span> Human control</li>
-            <li><span aria-hidden="true">&#10003;</span> Secure releases</li>
-          </ul>
-        </div>
+        <ol class="steps" aria-label="Delivery method" data-reveal>
+          <li>
+            <span>01</span>
+            <h3>Map the case</h3>
+            <p>Clarify users, source data, decisions, risk areas, integrations, and success measures.</p>
+          </li>
+          <li>
+            <span>02</span>
+            <h3>Build the working spine</h3>
+            <p>Ship the core workflow, data connections, review steps, deployment path, and security posture.</p>
+          </li>
+          <li>
+            <span>03</span>
+            <h3>Improve in production</h3>
+            <p>Add automation, evaluation, monitoring, documentation, and handoff routines as the system proves itself.</p>
+          </li>
+        </ol>
       </section>
 
       <section class="contact" id="contact">
         <div class="contact-copy" data-reveal>
-          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>Start</p>
-          <h2>Bring us the AI<br>opportunity.</h2>
-          <p class="lede">Tell us what your team wants to automate, understand,
-          generate, or make easier to operate. We reply personally.</p>
-          <a class="direct-mail" data-magnetic href="mailto:hello@mirsh.tech">
-            <span>hello@mirsh.tech</span>
-            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
+          <div class="section-kicker">
+            <span>05</span>
+            <p>Contact</p>
+          </div>
+          <h2>Tell us what should work better.</h2>
+          <p>
+            Send the outcome you want, the current process, and the systems involved. We reply personally.
+          </p>
+          <a class="direct-mail" href="mailto:hello@mirsh.tech">hello@mirsh.tech</a>
           <div class="company-details" aria-label="Company registration and address">
             <dl>
               <div>
@@ -251,54 +207,47 @@
             </dl>
           </div>
         </div>
-        <form class="contact-form" data-contact-form data-reveal novalidate>
-          <p class="form-intro">Send a brief</p>
+        <form class="contact-form" data-contact-form data-reveal>
           <label>
             <span>Name</span>
-            <input name="name" type="text" autocomplete="name" required placeholder="Your name">
+            <input name="name" type="text" autocomplete="name" required>
           </label>
           <label>
             <span>Email</span>
-            <input name="email" type="email" autocomplete="email" required placeholder="you@company.com">
+            <input name="email" type="email" autocomplete="email" required>
           </label>
           <label>
             <span>Project focus</span>
             <select name="focus" required>
               <option value="">Choose one</option>
-              <option>AI product build</option>
-              <option>AI agent</option>
+              <option>Product build</option>
               <option>Workflow automation</option>
               <option>Data readiness</option>
-              <option>AI safety review</option>
+              <option>Governance review</option>
+              <option>System integration</option>
             </select>
           </label>
           <label>
             <span>What should change?</span>
-            <textarea name="message" rows="4" required placeholder="The outcome you're after…"></textarea>
+            <textarea name="message" rows="5" required></textarea>
           </label>
-          <button class="button button-primary" data-magnetic type="submit">
-            Send brief
-            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </button>
+          <button class="button button-primary" type="submit">Send brief</button>
           <p class="form-status" data-form-status aria-live="polite"></p>
         </form>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="footer-top">
-        <a class="brand" href="#top" aria-label="Mirsh Systems home">
-          <img class="brand-logo" src="assets/mirsh-wordmark.svg" alt="Mirsh">
-        </a>
-        <p>Applied AI services for ambitious teams.</p>
-      </div>
-      <div class="footer-bottom">
+      <a class="brand" href="#top" aria-label="Mirsh Systems home">
+        <img class="brand-logo" src="assets/mirsh-wordmark.svg" alt="Mirsh">
+      </a>
+      <div class="footer-meta">
         <span>&copy; <span data-year>2026</span> Mirsh Trading FZ-LLC</span>
         <a href="mailto:hello@mirsh.tech">hello@mirsh.tech</a>
         <span>Ras Al Khaimah, UAE</span>
       </div>
     </footer>
 
-    <script type="module" src="script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
