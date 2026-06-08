@@ -16,8 +16,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@400;500;600&display=swap">
 
-    <link rel="preload" href="assets/secure-hardware.webp" as="image">
     <link rel="stylesheet" href="styles.css">
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.169.0/build/three.module.js"
+        }
+      }
+    </script>
   </head>
   <body>
     <header class="site-header" data-header>
@@ -38,19 +45,26 @@
 
     <main id="top">
       <section class="hero" aria-label="Mirsh Systems introduction">
-        <img class="hero-image" src="assets/secure-hardware.webp" alt="Secure server hardware and fiber optic infrastructure" width="1672" height="941">
-        <div class="hero-overlay" aria-hidden="true"></div>
-        <div class="hero-content" data-reveal>
-          <p class="eyebrow">Applied technology services</p>
-          <h1>Useful systems for serious operations.</h1>
-          <p class="hero-line">
-            Mirsh helps teams turn automation, data, and product ideas into dependable software that people can trust and operate.
-          </p>
-          <div class="hero-actions" aria-label="Primary actions">
-            <a class="button button-primary" href="#contact">Start a conversation</a>
-            <a class="button button-secondary" href="#services">View services</a>
+        <div class="hero-inner">
+          <div class="hero-content">
+            <p class="eyebrow">Applied technology services</p>
+            <h1>Useful systems for serious operations.</h1>
+            <p class="hero-line">
+              Mirsh helps teams turn automation, data, and product ideas into dependable software that people can trust and operate.
+            </p>
+            <div class="hero-actions" aria-label="Primary actions">
+              <a class="button button-primary" href="#contact">Start a conversation</a>
+              <a class="button button-secondary" href="#services">View services</a>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <canvas class="hero-canvas" data-webgl></canvas>
           </div>
         </div>
+        <a class="scroll-cue" href="#approach" aria-label="Scroll to overview">
+          <span class="scroll-cue-line"></span>
+          Scroll
+        </a>
       </section>
 
       <section class="intro" id="approach">
@@ -249,5 +263,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <script type="module" src="hero3d.js"></script>
   </body>
 </html>
